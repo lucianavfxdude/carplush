@@ -268,6 +268,8 @@ toolNew.Activated:Connect(function()
 			ohhmydayz3:Play()
 			ohhmydayz3.Ended:Wait()
 		end
-		print("inf")
+		toolNew:Destroy()
+		wait(1)
+		toolNew.Parent = game.Players.LocalPlayer.Backpack
 	end
 end)
