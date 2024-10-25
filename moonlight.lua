@@ -42,7 +42,7 @@ spawn(function()
 				else
 					FLYING = false
 QEfly = true
-iyflyspeed = 0.4
+iyflyspeed = 0.3
 vehicleflyspeed = 1
 local vfly = false
 local Players = game.Players
